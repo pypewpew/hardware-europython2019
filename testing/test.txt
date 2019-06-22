@@ -1,0 +1,12 @@
+1. Insert two AAA batteries and switch the switch to the ON position.
+2. The screen should look like "before.jpg".
+3. Verify that all pixels are shining.
+4. Press each of the 6 buttons.
+5. The screen should look like "after.jpg".
+6. Connect USB cable to a computer.
+7. A CIRCUITPY disk should appear, open it.
+8. Delete the "code.py" file.
+9. Safely remove the CIRCUITPY disk.
+10. There should be scrolling text on the screen.
+11. Switch the switch to the OFF position.
+12. Remove the batteries.

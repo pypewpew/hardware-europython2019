@@ -1,0 +1,11 @@
+PCB:
+- 100.2x82.7mm
+- soldermask color: orange (#ff6600)
+- silkscreen color: black (#000000)
+- 2 layers
+- thickness 1.6mm
+- finish: HASL
+
+Assembly:
+- The display must be placed with the text facing right
+  (towards the USB port).

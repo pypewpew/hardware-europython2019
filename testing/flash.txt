@@ -1,0 +1,34 @@
+
+Connecting
+==========
+
+Use J-Link programmer.
+
+There is a connection header on the bottom of the board, labeled this way:
+
+R - - 1 2 3 4 5 6 7 + +3V
+
+The programmer has to be connected in the following way:
+R: RST
+-: GND
+1: SWCLK
+2: SWDIO
++: VCC
+
+In addition, the board needs to have 3-3.3V power provided to the +/- pins:
+
+-: GND
++: 3.3V
+
+Or batteries can be used.
+
+Commands
+========
+
+JLinkExe -if SWD -device ATSAMD21E18 -speed 4000kHz
+J-Link> connect
+J-Link> erase
+J-Link> loadbin pewpew.bin 0
+J-Link> g
+J-Link> qc
+
